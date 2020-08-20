@@ -6,6 +6,16 @@ body
     background-color: #1f2833;
 }
 
+a, ul{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.sub-category{
+    color: yellow;
+}
+
 h1 
 {
     color: #c3073f;
@@ -24,11 +34,7 @@ h3
     color: #66FCF1;
 }
 
-a{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-}
+
 
 div{
     background-color: #0b0c10;
