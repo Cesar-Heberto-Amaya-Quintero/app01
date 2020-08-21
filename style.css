@@ -4,12 +4,24 @@
 body
 {
     background-color: #1f2833;
+    margin: 0 auto;
 }
 
 a, ul{
     color: white;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    list-style-type: none;
+}
+
+.pet{
+    border-left-style: solid;
+    border-left-width: 4px;
+    padding-left: 10px;
+    /*border-bottom-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: #1f2833;
+    border-color: #1f2833;*/
 }
 
 .sub-category{
@@ -32,6 +44,7 @@ h3
 .header
 {
     color: #66FCF1;
+
 }
 
 
@@ -41,19 +54,72 @@ div{
     color: #c5c6c7;
     font-family: 'Roboto', sans-serif;
     font-size: 14;
+    width: 100%;
 }
 #div-1
 {
-    width: 30%;
+
+    width: 100%;
+    text-align: center;
+    font-size: 600%;
+    font-weight: bolder;
+    /*float: left;*/
 }
 #div-2
 {
+    width: 100%;
+    background-color: #fff;
+    color: #0b0c10;
+    font-size: 400%;
+    /*float: left;*/
+}
 
-    width: 50%;
+/*.borde,ul{
+    border-left-style: solid;
+    
+    
+}
+
+li{
+
+    border-bottom-style: solid;
+    border-bottom-color: #1f2833;
+    border-width: 5px;
+    
+}*/
+
+.container-element {
+    height: auto;
+    min-height: 100px;
+}
+
+.element{
+    float: left;
+    width: 20%;
 }
 
 @media only screen and (max-width: 800px){
     body{
         background-color: #fff;
+    }
+
+    #div-1{
+        width: 100%;
+        text-align: center;
+        font-size: 500%;
+        font-weight: bolder;
+    }
+
+    .element{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 200%;
+    }
+    .element:hover {
+        background-color: #fff;
+        color:#000000;
+        transition: background-color 0.5s ease;
     }
 }
