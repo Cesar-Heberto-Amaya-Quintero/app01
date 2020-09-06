@@ -98,6 +98,10 @@ li{
     width: 20%;
 }
 
+#meme-image {
+    width: 20%;
+}
+
 @media only screen and (max-width: 800px){
     body{
         background-color: #fff;
